@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Markdown Previewer</title>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <button id="theme-toggle">🌙 Dark Mode</button>
+
+  <div class="container">
+    <textarea id="editor" placeholder="Type Markdown here..."># Hello, guys this is heading 1!  
+Type **bold text** or *italic text*.  
+- List item 1  
+- List item 2  
+</textarea>
+
+    <div id="preview"></div>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+</html>

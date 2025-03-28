@@ -1,0 +1,65 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --border-color: #ccc;
+    --preview-bg: #f9f9f9;
+  }
+
+  .dark-mode {
+    --bg-color: #1e1e1e;
+    --text-color: #ffffff;
+    --border-color: #555;
+    --preview-bg: #2e2e2e;
+  }
+
+  body {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: 0.3s;
+  }
+
+  .container {
+    display: flex;
+    gap: 20px;
+    width: 80%;
+  }
+
+  textarea, #preview {
+    width: 50%;
+    height: 400px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid var(--border-color);
+    background: var(--bg-color);
+    color: var(--text-color);
+    transition: 0.3s;
+  }
+
+  textarea {
+    resize: none;
+  }
+
+  #preview {
+    overflow-y: auto;
+    background: var(--preview-bg);
+  }
+
+  button {
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    background: var(--border-color);
+    color: var(--text-color);
+    font-weight: bold;
+    transition: 0.5s;
+  }
+
+  button:hover {
+    background: var(--text-color);
+    color: var(--bg-color);
+  }
