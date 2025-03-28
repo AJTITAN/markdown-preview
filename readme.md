@@ -15,8 +15,6 @@
 ### Toggle view
 ![Toggle Screenshot](./ss/image.png)
 
-### Search functionality
-![Search Screenshot](./ss/search.png)
 
 
 
